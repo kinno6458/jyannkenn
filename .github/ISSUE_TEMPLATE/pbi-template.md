@@ -1,6 +1,6 @@
 ---
 name: PBI template
-about: Describe this issue template's purpose here.
+about: Describe this issue template's purpose here.２
 title: ''
 labels: ''
 assignees: ''
