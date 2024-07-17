@@ -17,11 +17,13 @@ public class Choki implements Hand {
      */
 
     public int compare(Hand hand) {
-
-        //TODO:例外の処理
-
-        return 0; //TODO 仮の返り値
-
+        if(hand instanceof Choki) {
+            return 0;
+        } else if(hand instanceof Pa) {
+            return 1;
+        } else {
+            return -1;
+        }
     }
 
 
